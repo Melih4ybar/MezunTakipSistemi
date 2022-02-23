@@ -127,6 +127,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\AnaSayfaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OgrenciController.cs" />
@@ -137,6 +138,10 @@
     <Compile Include="Migrations\202202231053169_mig_1.cs" />
     <Compile Include="Migrations\202202231053169_mig_1.designer.cs">
       <DependentUpon>202202231053169_mig_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202231246238_mig_2.cs" />
+    <Compile Include="Migrations\202202231246238_mig_2.designer.cs">
+      <DependentUpon>202202231246238_mig_2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
@@ -202,11 +207,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout2.cshtml" />
     <Content Include="Views\Ogrenci\Index.cshtml" />
-    <Content Include="Views\Ogrenci\Giris.cshtml" />
+    <Content Include="Views\AnaSayfa\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\AnaSayfa\" />
+    <Folder Include="Views\Admin\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -224,6 +229,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202202231053169_mig_1.resx">
       <DependentUpon>202202231053169_mig_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202231246238_mig_2.resx">
+      <DependentUpon>202202231246238_mig_2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -18,7 +18,7 @@ namespace MezunTakipSistemi.Models
         public string CepNo { get; set; }
         public bool CalismaDurumu { get; set; }
         public DateTime DogumTarihi { get; set; }
-        public bool Cinsiyet { get; set; }
+        public string Cinsiyet { get; set; }
         public string DogumYeri { get; set; }
         public string YasadigiYer { get; set; }
         public string MedeniDurum { get; set; }
